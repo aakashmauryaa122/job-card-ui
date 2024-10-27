@@ -12,7 +12,7 @@ const JobCard = ({ user }) => {
     <div className="job-card">
       <div className="top-section">
         <img
-          src={`https://logo.clearbit.com/${user.company.website}`}
+          src="/icons/C-Logo.webp"
           alt={user.company.name}
           className="company-logo"
         />
@@ -38,7 +38,7 @@ const JobCard = ({ user }) => {
 
       <div className="salary-location-wrapper">
         <div>
-          <div className="user-salary">${user.salary}/hr</div>
+          <div className="user-salary">$80/hr</div>
           <div className="city-location">
             {user.address.street}, {user.address.city}
           </div>
